@@ -1,0 +1,53 @@
+button {
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(55, 177, 242);
+    top: 25px;
+
+}
+
+#home {
+    position: relative;
+    left: 800px;
+}
+
+#us {
+    position: relative;
+    left: 833px;
+}
+
+#contact {
+    position: relative;
+    left: 860px;
+}
+
+body {
+    background-image: url(GG1.png);
+
+}
+
+button {
+    background-color: #82581c;
+    color: #9ba0e4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: default;
+    position: relative;
+    transition: transform 0.3s ease;
+    padding: 12px 24px;
+}
+
+
+button:hover {
+    transform: translateX(2px) translateY(-2px);
+    color: rgb(67, 126, 255);
+    background-color: #c89832;
+
+
+}
+
+
+
